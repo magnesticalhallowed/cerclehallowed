@@ -33,6 +33,34 @@ h1 {
   background: #ffeaea;
 }
 
+.cartes {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.carte {
+  width: 80px;
+  height: 120px;
+  background: #8b2f4e;
+  border-radius: 10px;
+  cursor: pointer;
+  perspective: 1000px;
+}
+
+.carte.active {
+  background: #ffeaea;
+}
+
+.carte p {
+  color: #3a2c28;
+}
+
+#tirage-resultat {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
 .lien {
   display: inline-block;
   margin-top: 20px;
